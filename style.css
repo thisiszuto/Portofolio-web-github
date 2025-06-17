@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 1rem;
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(135deg, #111 20%, #3a3a3a 100%);
+  color: white;
+  padding: 4rem 2rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffe063;
+}
+
+nav a:hover {
+  color: #ffe063;
+}
+
+.hero-content {
+  margin-top: 3rem;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.hero-content h1 span {
+  color: #ffe063;
+}
+
+.hero-content p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.cta-btn {
+  padding: 0.8rem 2rem;
+  background-color: #ffe063;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.cta-btn:hover {
+  background-color: #ffcc00;
+}
+
+.spotlight {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.spotlight h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+}
+
+.card p {
+  padding: 1rem;
+  font-weight: 500;
+}
+
+.collection {
+  padding: 3rem 2rem;
+  background-color: #fffef8;
+  text-align: center;
+}
+
+.collection h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.collection-list {
+  list-style: none;
+}
+
+.collection-list li {
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  color: #444;
+}
+
+.collection-list span {
+  font-weight: bold;
+  color: #ffe063;
+  margin-right: 1rem;
+}
+
+.footer {
+  padding: 2rem;
+  text-align: center;
+  background-color: #111;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.hero-content-with-image {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Biar isi ke tengah */
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-text {
+  max-width: 600px;
+}
+
+.profile-pic-right {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #ffe063;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
